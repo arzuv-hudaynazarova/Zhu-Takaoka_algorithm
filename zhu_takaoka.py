@@ -1,32 +1,30 @@
 import re
 
-def zhu_takaoka(text, pattern):
-    m = len(pattern)
+def zhu_takaoka(text, desen):
+    m = len(desen)
     n = len(text)
-    skip = [m] * 256
+    islem = [m] * 256
 
     for i in range(m - 1):
-        skip[ord(pattern[i])] = m - i - 1
+        islem[ord(desen[i])] = m - i - 1
 
     i = m - 1
     while i < n:
         j = m - 1
-        while text[i] == pattern[j]:
+        while text[i] == desen[j]:
             if j == 0:
                 return i
             i -= 1
             j -= 1
-        i += max(skip[ord(text[i])], m - j)
+        i += max(islem[ord(text[i])], m - j)
 
     return -1
 
 with open('alice_in_wonderland.txt', 'r') as f:
     text = f.read()
 
-words = ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim']
+aranan_kelimler = ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim']
 
-for word in words:
-    count = len(re.findall(word, text))
-    print(word, count)
-
-
+for kelime in aranan_kelimler:
+    sayi = len(re.findall(kelime, text))
+    print(kelime, sayi)
