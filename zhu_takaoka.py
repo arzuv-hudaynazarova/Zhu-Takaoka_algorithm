@@ -28,3 +28,6 @@ aranan_kelimler = ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim']
 for kelime in aranan_kelimler:
     sayi = len(re.findall(kelime, text))
     print(kelime, sayi)
+    
+    
+    
