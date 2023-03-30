@@ -1,8 +1,8 @@
 Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
 
-1. Kodu çalıştırabileceğiniz bir Python IDE'si veya metin düzenleyici açın. Proje dosyası oluşturun.
+1. İlk olarak, "alice_in_wonderland.txt" dosyasını Python kodunuzla aynı klasöre yerleştirin.
 
-2. İçine 'alice_in_wonderland.txt' adlı dosyayı çalıştığınız Python proje dosyasının içine ekleyin. ve zhu-takaoka.py da verdiğim kodu bu ortama yapıştırın.
+2. Editörde zhu-takaoka.py da verdiğim kodu bu ortama yapıştırın.
 
 3.Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland' metninde aramak 
 istediğiniz kelimeleri içermelidir.
