@@ -1,5 +1,5 @@
 
-# Zhu-Takaoka algoritması kullanarak, verilen metin dosyasında bir kelimenin ilk konumunu bulma fonksiyonu
+# Zhu-Takaoka algoritması kullanarak, verilen metin dosyasında bir kelimenin ilk konumunu bulan fonksiyon
 def zhu_takaoka_arama(metin, kelime):
     kelime_uzunluk = len(kelime)
     metin_uzunluk = len(metin)
