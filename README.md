@@ -4,7 +4,7 @@
 
 Zhu-Takaoka Algoritmasısının kullanılış amacı:
 
-Zhu-Takaoka Algoritması, dize eşleştirme ve arama problemleri için kullanılan etkili bir algoritmadır. Genellikle metin işleme, bilgisayar dilbilimi ve veri madenciliği gibi alanlarda metin içerisinde bir örüntü veya alt dizenin bulunması için kullanılan bir algoritmadır. Bu algoritma, Knuth-Morris-Pratt (KMP) ve Boyer-Moore algoritmalarının avantajlarını birleştirerek daha hızlı ve verimli dize arama performansı sunar.
+Zhu-Takaoka Algoritması, dize eşleştirme ve arama problemleri için kullanılan etkili bir algoritmadır. Genellikle metin işleme, bilgisayar dilbilimi ve veri madenciliği gibi alanlarda metin içerisinde bir örüntü veya alt dizenin bulunması için kullanılan bir arama algoritmadır. Bu algoritma, Knuth-Morris-Pratt (KMP) ve Boyer-Moore algoritmalarının avantajlarını birleştirerek daha hızlı ve verimli dize arama performansı sunar.
 
 Zhu-Takaoka algoritması, şu şekilde çalışır:
 
