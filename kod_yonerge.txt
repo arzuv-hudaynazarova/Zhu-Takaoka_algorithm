@@ -1,3 +1,6 @@
+#Kodun çalışma şekli:
+
+
 Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
 
 1. İlk olarak, "alice_in_wonderland.txt" dosyasını Python kodunuzla aynı klasöre yerleştirin.
