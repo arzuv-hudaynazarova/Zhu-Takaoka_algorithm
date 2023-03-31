@@ -1,19 +1,37 @@
 #Kodun çalışma şekli:
+zhu-takao.py dosyasında, Zhu-Takaoka algoritması kullanarak verilen bir metin dosyasında belirli kelimelerin ilk konumlarını ve kaç kez geçtiğini bulan bir Python fonksiyonu oluşturdum.
+
+zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak metinde aranan kelimenin ilk konumunu bulmaya ve döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
+Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
+Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
+Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
+
+kelime_sayisi fonksiyonu: Bu fonksiyon, metinde aranan kelimenin toplam geçiş sayısını hesaplar ve döndürür.
+Bir sayaç ve index değişkeni ile başladım.
+Zhu-Takaoka algoritmasını kullanarak metinde kelime aradım ve index değerini güncelledim.
+Eğer kelime bulunursa, sayacı artırdım ve metni index değerinden sonraki kısmıyla güncelledim. İşlem, index -1 olana kadar devam etti.
+
+'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım.
+Aranacak kelimelerin listesini oluşturdum.
+Aranan kelimelerin metinde kaç kez geçtiğini buldum ve ekrana yazdırdım.
+
+Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde edilmiştir.
 
 
-Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
+#Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
 
 1. İlk olarak, "alice_in_wonderland.txt" dosyasını Python kodunuzla aynı klasöre yerleştirin.
 
-2. Editörde zhu-takaoka.py da verdiğim kodu bu ortama yapıştırın.
+2. Yazdığım kodu (zhu-takaoka.py) bir Python dosyasına (örneğin, deneme.py) yapıştırın.
 
-3.Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland' metninde aramak 
-istediğiniz kelimeleri içermelidir.
-Örnek olarak, şu anda bu liste ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim'] şeklinde tanımlanmıştır.
+3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak 
+   istediğiniz kelimeleri içermelidir.
+   Örnek olarak, şu anda bu liste ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim'] şeklinde tanımlanmıştır.
 
-4.Kodu çalıştırın. Bu, Python IDE veya metin düzenleyicinizdeki 'Run' veya 'Çalıştır' düğmesine basarak veya terminalde
-'python dosya_adı.py' komutunu yazarak yapabilirsiniz.
+4. Kodu çalıştırın. Bu, Python IDE veya metin düzenleyicinizdeki 'Run' veya 'Çalıştır' düğmesine basarak veya terminalde
+  'deneme.py' komutunu yazarak yapabilirsiniz.
 
-5.Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
+5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
-Kodunuzu test etmek için, aranan_kelimeler listesindeki kelimeleri değiştirip, sonuçların değişip değişmediğini kontrol edebilirsiniz.
+Kodunuzu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini görebilirsiniz ve sonuçların değişip değişmediğini kontrol edebilirsiniz.
+
