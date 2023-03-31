@@ -32,5 +32,5 @@ Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde edilmiştir.
 
 5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
-Kodunuzu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini görebilirsiniz ve sonuçların değişip değişmediğini kontrol edebilirsiniz.
+Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
 
