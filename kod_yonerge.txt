@@ -1,19 +1,20 @@
 #Kodun çalışma şekli:
+
 zhu-takao.py dosyasında, Zhu-Takaoka algoritması kullanarak verilen bir metin dosyasında belirli kelimelerin ilk konumlarını ve kaç kez geçtiğini bulan bir Python fonksiyonu oluşturdum.
 
-zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak metinde aranan kelimenin ilk konumunu bulmaya ve döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
-Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
-Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
-Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
+1. zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak metinde aranan kelimenin ilk konumunu bulmaya ve     döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
+  Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
+  Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
+  Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
 
-kelime_sayisi fonksiyonu: Bu fonksiyon, metinde aranan kelimenin toplam geçiş sayısını hesaplar ve döndürür.
-Bir sayaç ve index değişkeni ile başladım.
-Zhu-Takaoka algoritmasını kullanarak metinde kelime aradım ve index değerini güncelledim.
-Eğer kelime bulunursa, sayacı artırdım ve metni index değerinden sonraki kısmıyla güncelledim. İşlem, index -1 olana kadar devam etti.
+2. kelime_sayisi fonksiyonu: Bu fonksiyon, metinde aranan kelimenin toplam geçiş sayısını hesaplar ve döndürür.
+   Bir sayaç ve index değişkeni ile başladım.
+   Zhu-Takaoka algoritmasını kullanarak metinde kelime aradım ve index değerini güncelledim.
+   Eğer kelime bulunursa, sayacı artırdım ve metni index değerinden sonraki kısmıyla güncelledim. İşlem, index -1 olana kadar devam etti.
 
-'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım.
-Aranacak kelimelerin listesini oluşturdum.
-Aranan kelimelerin metinde kaç kez geçtiğini buldum ve ekrana yazdırdım.
+3. 'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım.
+    Aranacak kelimelerin listesini oluşturdum.
+    Aranan kelimelerin metinde kaç kez geçtiğini buldum ve ekrana yazdırdım.
 
 Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde edilmiştir.
 
