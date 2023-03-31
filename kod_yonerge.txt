@@ -8,7 +8,7 @@
 2. kelime_sayisi fonksiyonu: Bu fonksiyon, metinde aranan kelimenin toplam geçiş sayısını hesaplar ve döndürür.
    Bir sayaç ve index değişkeni ile başladım.
    Zhu-Takaoka algoritmasını kullanarak metinde kelime aradım ve index değerini güncelledim.
-   Eğer kelime bulunursa, sayacı artırdım ve metni index değerinden sonraki kısmıyla güncelledim. İşlem, index -1 olana kadar devam etti.
+   Eğer kelime bulunursa, sayacı artırdım ve metni index değerinden sonraki kısmıyla güncelledim. İşlem, index -1 olana kadar devam ettirir.
 
 3. 'alice_in_wonderland.txt' dosyasını okudum ve içeriğini 'text' değişkenine atadım.
     Aranacak kelimelerin listesini oluşturdum.
