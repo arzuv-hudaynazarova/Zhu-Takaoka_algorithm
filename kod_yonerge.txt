@@ -1,8 +1,6 @@
 #Kodun çalışma şekli:
 
-zhu-takao.py dosyasında, Zhu-Takaoka algoritması kullanarak verilen bir metin dosyasında belirli kelimelerin ilk konumlarını ve kaç kez geçtiğini bulan bir Python fonksiyonu oluşturdum.
-
-1. zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak metinde aranan kelimenin ilk konumunu bulmaya ve     döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
+1. zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak verilen metinde aranan kelimenin ilk konumunu bulmaya ve döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
   Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
   Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
   Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
