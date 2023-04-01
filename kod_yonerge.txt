@@ -14,7 +14,7 @@
     Aranacak kelimelerin listesini oluşturdum.
     Aranan kelimelerin metinde kaç kez geçtiğini buldum ve ekrana yazdırdım.
 
-Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde edilmiştir.
+Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde ettim.
 
 
 #Kodun kullanımı ve test edilmesi için yönergeleri aşağıda belirttim:
