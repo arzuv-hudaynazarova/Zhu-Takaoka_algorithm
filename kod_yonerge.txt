@@ -1,9 +1,10 @@
 #Kodun çalışma şekli:
 
-1. zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak verilen metinde aranan kelimenin ilk konumunu bulmaya ve döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
-  Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
-  Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
-  Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
+1. zhu_takaoka_arama fonksiyonu: Bu fonksiyon, Zhu-Takaoka algoritması kullanarak verilen metinde aranan kelimenin ilk 
+   konumunu bulmaya ve döndürmeye yarar. Eğer kelime bulunamazsa -1 değerini döndürür.
+   Öncelikle, aranan kelimenin ve metnin uzunluğunu hesapladım.
+   Zhu-Takaoka algoritması için gerekli ön işlemeyi gerçekleştirdim ve işlem tablosunu oluşturdum.
+   Daha sonra, Zhu-Takaoka algoritması ile metinde kelimeyi aradım ve başlangıç pozisyonunu döndürdüm.
 
 2. kelime_sayisi fonksiyonu: Bu fonksiyon, metinde aranan kelimenin toplam geçiş sayısını hesaplar ve döndürür.
    Bir sayaç ve index değişkeni ile başladım.
@@ -23,14 +24,14 @@ Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde ettim.
 
 2. Yazdığım kodu (zhu-takaoka.py) bir Python dosyasına (örneğin, deneme.py) yapıştırın.
 
-3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak 
+3. Kodun çalışması için gereken aranan_kelimeler listesini düzenleyin. Bu liste, 'Alice in Wonderland.txt' metninde aramak
    istediğiniz kelimeleri içermelidir.
    Örnek olarak, şu anda bu liste ['upon', 'sigh', 'Dormouse', 'jury-box', 'swim'] şeklinde tanımlanmıştır.
 
 4. Kodu çalıştırın. Bu, Python IDE veya metin düzenleyicinizdeki 'Run' veya 'Çalıştır' düğmesine basarak veya terminalde
-  'deneme.py' komutunu yazarak yapabilirsiniz.
+   'deneme.py' komutunu yazarak yapabilirsiniz.
 
 5. Kod çalıştırıldığında, ekrana 'Alice in Wonderland' metninde aranan kelimelerin geçiş sayılarını gösteren bir çıktı alırsınız.
 
-Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
-
+Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini 
+kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
