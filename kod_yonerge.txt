@@ -35,3 +35,5 @@ Not: Bu sonuçlar Zhu-Takaoka algoritması kullanılarak elde ettim.
 
 Kodumu test etmek için, aranan_kelimeler listesindeki kelimeleri 'Alice in Wonderland.txt' dosyasında kaç kez geçtiğini 
 kendiniz kontrol edebilirsiniz ve sonuçların değişip değişmediğini görebilirsiniz.
+
+
